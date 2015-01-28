@@ -1,0 +1,88 @@
+.header {
+	width: 1300;
+	height: 399;
+}
+
+.logo {
+	border: white 15px solid;
+	border-radius: 100px;
+	position:  absolute;
+	left: 60px;
+	top: 360px;
+}
+
+.left {
+	vertical-align: top;
+	margin: 60px;
+	width: 300px;
+	display: inline-block;
+}
+
+.right {
+	vertical-align: top;
+	margin: 50px;
+	width: 700px;
+	display: inline-block;
+}
+
+.leftcontent {
+	padding-bottom: 20px;
+	border-bottom: 1px grey solid;
+
+}
+
+.rightimages {
+	margin: 10px 0px;
+}
+
+.like, .reblog {
+	border-right: 1px solid grey;
+	display:inline-block;
+	padding: 10px;
+
+}
+
+.share {
+	display:inline-block;
+		padding: 10px;
+
+}
+
+.buttons {
+		border: 1px solid grey;
+		border-radius: 5px;
+		display:inline-block;
+
+}
+
+.date {
+	width: 72%;
+	display: inline-block;
+	text-align: right;
+}
+
+.postbottom {
+	width: 100%;
+	border-bottom: 1px grey solid;
+	padding: 10px 0px;
+}
+
+.older {
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+}
+
+.newer {
+	display: inline-block;
+	width: 50%;
+}
+
+.nav {
+	padding: 10px 0px;
+	border-bottom: 1px grey solid;
+}
+
+
+
+
