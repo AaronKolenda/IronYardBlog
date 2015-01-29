@@ -1,14 +1,21 @@
 .header {
 	width: 1300;
 	height: 399;
+	margin: -8px;
+
 }
 
 .logo {
-	border: white 15px solid;
+	border: white 10px solid;
 	border-radius: 100px;
 	position:  absolute;
 	left: 60px;
 	top: 360px;
+}
+
+.footerlogo{
+	border: white 10px solid;
+	border-radius: 100px;
 }
 
 .left {
@@ -52,7 +59,6 @@
 		border: 1px solid grey;
 		border-radius: 5px;
 		display:inline-block;
-
 }
 
 .date {
@@ -83,6 +89,71 @@
 	border-bottom: 1px grey solid;
 }
 
+.lrwrap {
+	width: 1300px;
+	height: 3400px;
+	border-bottom: 1px solid grey;
+}
 
+.stickyfooter {
+	height: 125px;
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	border: 1px grey solid;
+	border-radius: 4px;
+}
+
+.topwrap {
+	border-bottom: 1px grey solid;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+
+.never {
+	width: 50%;
+	display: inline-block;
+	padding: 10px;
+}
+
+.x {
+	width: 35%;
+	display: inline-block;
+	text-align: right;
+}
+
+.bottomwrap {
+	vertical-align: top;
+}
+
+.bottomwrap img {
+	background-color: white;
+}
+
+.innerwrap {
+	display: inline-block;
+	background-color: white;
+}
+
+.follow {
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 4px;
+}
 
 
