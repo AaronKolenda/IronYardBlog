@@ -6,35 +6,63 @@
 }
 
 .logo {
-	border: white 10px solid;
+	border: white 7px solid;
 	border-radius: 100px;
 	position:  absolute;
-	left: 60px;
+	left: 145px;
 	top: 360px;
 }
 
 .footerlogo{
 	border: white 10px solid;
 	border-radius: 100px;
+	margin-left: 230px;
+}
+
+footer {
+	width: 1300px;
+	height: 250px;
 }
 
 .left {
 	vertical-align: top;
-	margin: 60px;
+	margin-left: 70px;
+	margin-top: 60px;	
+	margin-bottom: 60px;
+	margin-right: 60px;	
 	width: 300px;
 	display: inline-block;
 }
 
+.left p {
+	line-height: 26px;
+	font-family: 'PT Serif', serif;
+	color: grey;
+	font-size: 16px;
+}
+
 .right {
 	vertical-align: top;
-	margin: 50px;
+	margin-left: 10px;
+	margin-top: 20px;	
+	margin-bottom: 20px;
+	margin-right: 20px;
 	width: 700px;
 	display: inline-block;
 }
 
+.right p {
+	line-height: 26px;
+	font-family: 'PT Serif', serif;
+	color: #666666;
+	font-size: 17px;
+}
+
 .leftcontent {
 	padding-bottom: 20px;
-	border-bottom: 1px grey solid;
+	border-bottom: 1px lightgrey solid;
+	width: 200px;
+	margin-left: 75px;
 
 }
 
@@ -43,70 +71,82 @@
 }
 
 .like, .reblog {
-	border-right: 1px solid grey;
+	border-right: 1px solid lightgrey;
 	display:inline-block;
 	padding: 10px;
+	line-height: 26px;
+	font-family: 'PT Serif', serif;
+	color: lightgrey;
+	font-size: 17px;
 
 }
 
 .share {
 	display:inline-block;
-		padding: 10px;
+	padding: 10px;
+	line-height: 26px;
+	font-family: 'PT Serif', serif;
+	color: lightgrey;
+	font-size: 17px;
 
 }
 
 .buttons {
-		border: 1px solid grey;
+		border: 1px solid lightgrey;
 		border-radius: 5px;
 		display:inline-block;
 }
 
 .date {
-	width: 72%;
+	width: 70%;
 	display: inline-block;
 	text-align: right;
+	color: #b5b5b5;
 }
 
 .postbottom {
 	width: 100%;
-	border-bottom: 1px grey solid;
-	padding: 10px 0px;
+	border-bottom: 1px lightgrey solid;
+	padding-top: 10px;
+	padding-bottom: 60px;
 }
 
 .older {
 	display: inline-block;
 	width: 49%;
 	text-align: right;
+	color: lightgrey;
 }
 
 .newer {
 	display: inline-block;
 	width: 50%;
+	color: lightgrey;
 }
 
 .nav {
-	padding: 10px 0px;
-	border-bottom: 1px grey solid;
+	padding: 20px 0px;
+	border-bottom: 1px lightgrey solid;
 }
 
 .lrwrap {
 	width: 1300px;
-	height: 3400px;
-	border-bottom: 1px solid grey;
+	height: 3800px;
+	border-bottom: 1px solid lightgrey;
 }
 
 .stickyfooter {
-	height: 125px;
+	height: 115px;
 	width: 300px;
 	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	border: 1px grey solid;
+	bottom: 3px;
+	right: 3px;
+	border: 1px lightgrey solid;
 	border-radius: 4px;
 }
 
 .topwrap {
-	border-bottom: 1px grey solid;
+	border-bottom: 1px lightgrey solid;
 	height: 40px;
 	width: 100%;
 	background-color: white;
@@ -116,44 +156,99 @@
 	width: 50%;
 	display: inline-block;
 	padding: 10px;
+	color: rgb(66,66,66);
+	font-family: Arial, sans-serif;
 }
 
 .x {
 	width: 35%;
 	display: inline-block;
 	text-align: right;
+	color: lightgrey;
 }
 
 .bottomwrap {
-	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: white;
 }
 
 .bottomwrap img {
 	background-color: white;
+	margin: 5px;
+	width: 40px;
+	height: 40px;
 }
 
 .innerwrap {
 	display: inline-block;
 	background-color: white;
+	vertical-align: top;
+	line-height: 12px;
+	font-family: arial, serif;
+	color: grey;
+	font-size: 12px;
 }
 
-.follow {
+.innerwrap .ibtiydc {
+	color: black;
+}
+
+.innerwrap .ibtiydc2 {
+	color: lightgrey;
+}
+
+.bottomwrap .follow {
 	display: inline-block;
-	width: 90px;
+	width: 80px;
 	height: 30px;
-	background-color: blue;
+	background-color: rgb(66,159,205);
 	color: white;
 	vertical-align: middle;
-	font-size: 18px;
+	font-size: 12px;
+	font-family: Arial; sans-serif;
 	line-height: 30px;
 	padding-left: 0px;
 	padding-right: 0px;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 45px;
-	margin-left: 5px;
+	margin-left: 25px;
 	margin-right: 5px;
 	border-radius: 4px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Arial; sans-serif;
+	color: #333333;
+	font-weight: 700;
+}
+
+.psearch {
+	font-weight: 700;
+}  
+
+.left p.pclass1 {
+	color: grey;
+}
+
+.search {
+	width: 200px;
+	margin-left: 75px;
+}
+
+input {
+	height: 20px;
+	width: 190px;
+}
+
+footer .right p {
+	color:grey;
+}
+
+footer .right p.credit {
+	color: lightgrey;
 }
 
 
